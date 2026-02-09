@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Storyboardly | AI Script Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="logo">Storyboardly</div>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#auth">Login</a>
+        <a class="nav-button" href="dashboard.html">Dashboard</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <p class="tag">AI-powered pre-production</p>
+          <h1>Turn any video link into a 10-minute script in minutes.</h1>
+          <p>
+            Storyboardly helps creators and teams generate long-form, scene-by-scene
+            scripts for YouTube videos and 2D animation projects. Drop a link and
+            get production-ready dialogue.
+          </p>
+          <div class="hero-actions">
+            <button class="primary">Start free</button>
+            <button class="ghost">Watch demo</button>
+          </div>
+          <div class="hero-metrics">
+            <div>
+              <strong>10 min+</strong>
+              <span>script length</span>
+            </div>
+            <div>
+              <strong>Scene-ready</strong>
+              <span>structured output</span>
+            </div>
+            <div>
+              <strong>Creator-first</strong>
+              <span>workflow</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="card-header">
+            <span>Script Preview</span>
+            <span class="pill">Draft</span>
+          </div>
+          <div class="card-body">
+            <p><strong>Scene 1:</strong> Intro montage, upbeat music.</p>
+            <p><strong>Dialogue:</strong> "Today we're diving into..."</p>
+            <p><strong>Scene 2:</strong> Host on camera, overlay graphics.</p>
+            <p><strong>Dialogue:</strong> "First, let's define the goal."</p>
+            <p class="muted">Output continues for 10+ minutes...</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="features">
+        <h2>Everything you need to plan great videos</h2>
+        <div class="feature-grid">
+          <article>
+            <h3>Scene-by-scene structure</h3>
+            <p>Automatic breakdowns with timing hints and pacing guidance.</p>
+          </article>
+          <article>
+            <h3>Dialogue with voice notes</h3>
+            <p>Natural language lines ready for voiceover or on-camera talent.</p>
+          </article>
+          <article>
+            <h3>Length control</h3>
+            <p>Always generate scripts that meet your minimum length target.</p>
+          </article>
+          <article>
+            <h3>Export ready</h3>
+            <p>Copy or download scripts for your team or animation studio.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="pricing" class="pricing">
+        <h2>Pricing that grows with your channel</h2>
+        <div class="pricing-grid">
+          <article class="pricing-card">
+            <h3>Starter</h3>
+            <p class="price">Free</p>
+            <ul>
+              <li>3 scripts / month</li>
+              <li>Basic scene structure</li>
+              <li>Email support</li>
+            </ul>
+            <button class="primary">Get started</button>
+          </article>
+          <article class="pricing-card highlight">
+            <h3>Creator Pro</h3>
+            <p class="price">$19/mo</p>
+            <ul>
+              <li>Unlimited scripts</li>
+              <li>Advanced pacing controls</li>
+              <li>Priority support</li>
+            </ul>
+            <button class="primary">Upgrade</button>
+          </article>
+          <article class="pricing-card">
+            <h3>Studio</h3>
+            <p class="price">$49/mo</p>
+            <ul>
+              <li>Team collaboration</li>
+              <li>Shared templates</li>
+              <li>Production exports</li>
+            </ul>
+            <button class="primary">Talk to sales</button>
+          </article>
+        </div>
+      </section>
+
+      <section id="auth" class="auth">
+        <div class="auth-header">
+          <h2>Log in or create your account</h2>
+          <p>No backend yet—this is a UI preview for the Webflow MVP.</p>
+        </div>
+        <div class="auth-toggle">
+          <button class="toggle-button active" data-target="login">Login</button>
+          <button class="toggle-button" data-target="signup">Signup</button>
+        </div>
+        <div class="auth-forms">
+          <form class="auth-form active" id="login">
+            <label>
+              Work email
+              <input type="email" placeholder="you@company.com" />
+            </label>
+            <label>
+              Password
+              <input type="password" placeholder="••••••••" />
+            </label>
+            <button class="primary" type="button">Log in</button>
+            <span class="form-note">Forgot your password? Reset link coming soon.</span>
+          </form>
+          <form class="auth-form" id="signup">
+            <label>
+              Full name
+              <input type="text" placeholder="Alex Creator" />
+            </label>
+            <label>
+              Work email
+              <input type="email" placeholder="you@company.com" />
+            </label>
+            <label>
+              Password
+              <input type="password" placeholder="Create a password" />
+            </label>
+            <button class="primary" type="button">Create account</button>
+            <span class="form-note">By signing up, you agree to our terms.</span>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Storyboardly © 2024. Built for creators on the Webflow Free plan.</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
