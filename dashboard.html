@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Storyboardly | Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="logo">Storyboardly</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a class="nav-button" href="#">Log out</a>
+      </nav>
+    </header>
+
+    <main class="dashboard">
+      <section class="dashboard-panel">
+        <h1>Generate your script</h1>
+        <p>
+          Paste a YouTube link or 2D animation reference. We will create a
+          10-minute script with scene-by-scene dialogue.
+        </p>
+        <label class="input-group">
+          Video link
+          <input type="url" placeholder="https://www.youtube.com/watch?v=..." />
+        </label>
+        <button class="primary">Generate</button>
+      </section>
+
+      <section class="dashboard-output">
+        <div class="output-header">
+          <h2>Script output</h2>
+          <span class="pill">Preview</span>
+        </div>
+        <div class="output-body">
+          <p class="muted">Your generated script will appear here.</p>
+          <div class="output-sample">
+            <p><strong>Scene 1:</strong> Hook and cold open.</p>
+            <p><strong>Dialogue:</strong> "Welcome back! Today we're..."</p>
+            <p><strong>Scene 2:</strong> Visual examples and overlays.</p>
+            <p><strong>Dialogue:</strong> "Notice how the character reacts..."</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
