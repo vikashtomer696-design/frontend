@@ -1,0 +1,21 @@
+{
+  "name": "automation-platform-backend",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "NODE_ENV=production node src/server.js",
+    "worker": "node src/queue/worker.js",
+    "check": "node --check src/server.js && node --check src/engine/executionEngine.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bullmq": "^5.12.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.5.0",
+    "ioredis": "^5.4.1",
+    "openai": "^4.56.0"
+  }
+}
