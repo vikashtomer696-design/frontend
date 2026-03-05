@@ -1,0 +1,65 @@
+# Complete Folder Structure
+
+```text
+backend/
+  package.json
+  .env.example
+  src/
+    api/
+      controllers/
+        workflowController.js
+        executionController.js
+        logController.js
+        webhookController.js
+      middlewares/
+        errorHandler.js
+      routes/
+        index.js
+        workflows.js
+        executions.js
+        logs.js
+        webhooks.js
+    config/
+      env.js
+    db/
+      firestore.js
+    engine/
+      executionEngine.js
+    nodes/
+      core/
+        BaseNode.js
+        nodeRegistry.js
+      plugins/
+        webhookTrigger/WebhookTriggerNode.js
+        httpRequest/HttpRequestNode.js
+        telegramSendMessage/TelegramSendMessageNode.js
+        openaiApi/OpenAiNode.js
+        delay/DelayNode.js
+        ifCondition/IfConditionNode.js
+    queue/
+      connection.js
+      workflowQueue.js
+      worker.js
+    services/
+      workflowService.js
+      executionService.js
+      credentialService.js
+    utils/
+      encryption.js
+    server.js
+
+flutter_app/
+  pubspec.yaml
+  lib/
+    main.dart
+    features/workflows/
+      data/workflow_api.dart
+      domain/workflow.dart
+      presentation/workflow_list_page.dart
+
+docs/
+  architecture.md
+  api-routes.md
+  database-schema.md
+  folder-structure.md
+```
