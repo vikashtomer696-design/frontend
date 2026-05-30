@@ -1,0 +1,3 @@
+-keep class com.aiwhiteboard.studio.models.** { *; }
+-keep class kotlinx.serialization.** { *; }
+-keep class com.arthenica.ffmpegkit.** { *; }
