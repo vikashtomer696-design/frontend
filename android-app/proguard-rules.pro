@@ -1,0 +1,2 @@
+-keep class com.streamvision.tv.data.** { *; }
+-keepattributes Signature
